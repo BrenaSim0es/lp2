@@ -15,6 +15,11 @@
         {
             get { return this._nome; }
         }
+
+        public string Fornecedor
+        {
+            get { return this._Fornecedor; }
+        }
         
         public abstract double CalculaValorTotal();
         public abstract void Imprimir();
