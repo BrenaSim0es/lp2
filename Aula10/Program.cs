@@ -32,6 +32,39 @@ class Program
         Console.WriteLine("Raio:\t\t{0:0.0}", circ1.Raio);
         Console.WriteLine("Área:\t\t{0:0.0}", circ1.Area);
         Console.WriteLine("Perímetro\t{0:0.0}", circ1.Perimetro);
+    
+
+
+        Retangulo  reta1  =  novo  Retângulo ( 2.0 );
+        
+        // acessando métodos get
+        
+        Console . WriteLine ( " Área: \ t \ t {0: 0.0} " , reta1 . Área );
+        Console . WriteLine ( " Perímetro \ t {0: 0.0} " , reta1 . Perimetro );
+
+        // acessando o conjunto de método
+        // atualização automática
+        // da área e perímetro
+        
+        
+        // acessando métodos get
+        
+        Console . WriteLine ( " Área: \ t \ t {0: 0.0} " , reta1 . Área );
+        Console . WriteLine ( " Perímetro \ t {0: 0.0} " , reta1 . Perimetro );
+
+        // valor inválido sem conjunto de método
+   
+        
+        // acessando métodos get
+      
+        Console . WriteLine ( " Área: \ t \ t {0: 0.0} " , reta1 . Área );
+        Console . WriteLine ( " Perímetro \ t {0: 0.0} " , reta1 . Perimetro );
     }
+
+
+
+
+       
+
 }
 }
