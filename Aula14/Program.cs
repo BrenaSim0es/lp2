@@ -45,7 +45,18 @@ namespace Aula14
             relatorioClientes.AdicionarItem(zoroastra);
             relatorioClientes.ImprimirRelatorio();
             
-
+            Relatorio relatorioFornecedor = new Relatorio("Relatório de Fornecedor",
+                "Este relatório apresenta uma lista de todos os fornecedores que contribuem para loja");
+            relatorioFornecedor.AdicionarItem(americanas);
+            relatorioFornecedor.AdicionarItem(amigão);
+            relatorioFornecedor.ImprimirRelatorio();
+            
+            Relatorio relatorioCompra = new Relatorio("Relatório de Compras",
+                "Este relatório apresenta uma lista de todos os itens que foram comprados da loja");
+            relatorioCompra.AdicionarItem(xxx);
+            relatorioCompra.AdicionarItem(xxx);
+            relatorioCompra.ImprimirRelatorio();
+            
 
 
         }
