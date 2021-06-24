@@ -31,36 +31,7 @@ public class Compra
         this._itens = new Dictionary<Produto, int>();
     }
     
-    public void Adicionar(Produto item, int quantidade)
-    {
-        if (this._itens.ContainsKey(item))
-            this._itens[item] = this._itens[item] + quantidade;
-        else
-            this._itens[item] = quantidade;
-    }
-
-    public void Adicionar(Produto item)
-    {
-        this.Adicionar(item, 1);
-    }
-    
-    public void Adicionar(List<Produto> itens)
-    {
-        foreach (var item in itens)
-        {
-            this.Adicionar(item);
-        }
-    }
-    
-    public void Adicionar(Dictionary<Produto, int> itens)
-    {
-        foreach (KeyValuePair<Produto, int> parOrdenado in itens)
-        {
-            this.Adicionar(parOrdenado.Key, parOrdenado.Value);
-        }
-    }
-
-    public void ImprimirCompra()
+        public void ImprimirCompra()
     {
         Console.WriteLine("======== COMPRA ========");
         foreach (KeyValuePair<Produto, int> parOrdenado in this._itens)
